@@ -9,8 +9,8 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Building...'
-        sh 'node --version'
-        sh 'npm --version'
+        sh '/usr/bin/node --version'
+        sh '/usr/bin/npm --version'
       }
     }
     stage('Test') {
