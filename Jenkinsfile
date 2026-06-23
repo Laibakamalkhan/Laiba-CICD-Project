@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = 'se231003/Laiba-CICD-Project'
+        DOCKER_IMAGE = 'se231003/laiba-cicd-project' 
         IMAGE_TAG = "${BUILD_NUMBER}"
     }
     stages {
